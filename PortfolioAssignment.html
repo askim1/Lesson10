@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lesson 10 Assignment</title>
+    <link rel="stylesheet" href="PACSS.css">
+</head>
+<body>
+    <div class="container">
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#">HOME</a>
+            <a href="#">ABOUT</a>
+            <a href="#">PORTFOLIO</a>
+            <a href="#">CONTACT</a>
+        </div>
+        <span style="color: white; font-size: 30px; cursor:pointer" onclick="openNav()">&#9776;</span>
+        <script>
+            function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            }
+            
+            function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            }
+        </script>
+        <header>
+            <h2><img src="../Lesson10/portrait sketch.png" alt="self portrait sketch icon"></h2>
+        </header>
+        <main>
+            <p class="vicious"><a href="#"></a><img src="../Lesson10/viciousCyclesProject.png" alt="Portfolio Vicious Cycles Project" width="300px" ></a></p>
+            <p class="resume"><a href="#"><img src="../Lesson10/resumeProject.png" alt="Portfolio Resume Project" width="300px"></a></p>
+        </main>
+        <footer>
+            <a href="https://www.instagram.com/"><img src="../Lesson10/instagram.png" alt="instagram" width="30px" height="30px"></a>
+            <a href="https://www.linkedin.com/"><img src="../Lesson10/linkedin.png" alt="linkedin" width="30px" height="30px"></a>
+        </footer>
+    </div>
+</body>
+</html>
